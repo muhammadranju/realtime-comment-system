@@ -1,0 +1,19 @@
+{
+   "name": "realtime-comment-system",
+   "version": "1.0.0",
+   "description": "",
+   "main": "server.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js",
+      "prod": "NODE_ENV=production node server.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.17.3",
+      "moment": "^2.29.1",
+      "socket.io": "^4.4.1"
+   }
+}
